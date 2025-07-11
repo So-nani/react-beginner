@@ -26,6 +26,10 @@
       );
     }
 
+    const Title2 = () => (
+      <h2 id="title2" onMouseEnter={()=> console.log("Title의 복사본입니다")}>이 문장은 Title의 복사본이다</h2>
+    )
+
     const Button = () => (
       <button
         style={{
@@ -40,6 +44,7 @@
     const Contanier = () => (
       <div>
         <Title />
+        <Title2/>
         <Button />
       </div>
     );
